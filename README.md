@@ -18,7 +18,7 @@ Description: A simple project description similar to the one found in your `comp
 Installation instructions, with _examples like the one below_.
 
 ```shell
-composer require jascha030/composer-template
+composer require jascha030/wp-plugin-lib-template
 ```
 
 #### Distribution
@@ -26,7 +26,7 @@ composer require jascha030/composer-template
 Alternative steps for distribution.
 
 ```shell
-composer require --no-dev jascha030/composer-template
+composer require --no-dev jascha030/wp-plugin-lib-template
 ```
 
 ## Usage
