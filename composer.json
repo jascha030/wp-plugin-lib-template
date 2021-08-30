@@ -3,17 +3,18 @@
   "description": "Template repo for creating composer projects",
   "require-dev": {
     "friendsofphp/php-cs-fixer": "^3.0",
-    "phpunit/phpunit": "^9.5"
+    "phpunit/phpunit": "^9.5",
+    "symfony/var-dumper": "^5.3"
   },
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Jascha030\\ComposerTemplate\\": "src/"
+      "Jascha030\\WPLTemplate\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Jascha030\\ComposerTemplate\\Tests\\": "tests/"
+      "Jascha030\\WPLTemplate\\Tests\\": "tests/"
     }
   },
   "authors": [
@@ -24,7 +25,8 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": "^7.4 || ^8.0"
+    "php": "^7.4 || ^8.0",
+    "jascha030/wp-plugin-lib": "^1.3"
   },
   "config": {
     "platform": {
