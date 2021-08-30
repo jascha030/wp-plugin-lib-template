@@ -1,4 +1,4 @@
-# Composer project template
+# WordPress plugin template
 
 Description: A simple project description similar to the one found in your `composer.json`.
 
@@ -32,6 +32,14 @@ composer require --no-dev jascha030/composer-template
 ## Usage
 
 Extensive instructions in how to use your package in general or for use in the development of other projects.
+
+### Actions
+
+List of plugin specific action hooks and their arguments. 
+
+### Filters
+
+List of plugin specific filter hooks and their arguments.
 
 ### Testing
 
